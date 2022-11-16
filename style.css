@@ -1,0 +1,165 @@
+body{
+  background-color:var(--primari-color); 
+  font-family: 'Indie Flower', cursive;
+   font-family: 'Ubuntu', sans-serif;
+   
+  --primari-color:#5776b4;
+  --wid:80%;
+  --rot:0deg;
+  --trans:-0%, -0%; 
+  --wid2:50%;
+  --disp:none; 	
+  --etiq-top:0%;
+  --prix-bot:5%; 
+  --etiq-disp:block;	
+}
+
+*{
+  margin:0;
+  padding:0;
+  position:relative; 
+}
+.menu_party{
+	background-color:var(--primari-color);
+	position:fixed;
+	top:0%;
+	left:-110%;
+	width:100%;	
+	border-radius:0em 0em .5em .5em;
+	box-shadow:  
+			 1px 1px 3px rgba(0,0,0,0.1);
+	transition-duration:1s;	
+	overflow:hidden; 
+	padding-left:"";				 
+}
+
+#topp{
+	top:-8%;/**/   
+	left:0%;
+	height:8%;
+	z-index:110;	 
+}
+
+#cars{		
+	left:0%; /**/   
+	height:8%;/*70%*/
+	z-index:96; 
+	transition-delay:.4s; 
+	padding-left:43%;/**/				  
+}
+
+#jen{
+	position:fixed ;
+	top:-5%;
+	left:75%;
+	width:20%;
+	height:2em;
+	z-index:10;
+	transition-duration:1s;
+}
+
+.carousel-inner{
+	position:absolute;	
+	width:100%;
+	height:100vh;	
+	animation-duration:3000s;   
+}
+.carousel-control-prev,.carousel-control-next{
+  position:absolute; 
+  top:40vh;
+  display:var(--etiq-disp);
+}
+.carousel-control-next{
+  
+}
+
+h6{	   
+	position:absolute;
+	bottom:var(--prix-bot);
+	left:7%;
+	font-size:.9em;
+	z-index:33;
+	transition-duration:1s;	  
+}
+.prix{
+	color:#000;
+	left:10%;  
+	text-decoration:clear;   
+	text-decoration:underline;
+	font-size:1em;	 
+	font-weight:900;	
+}
+
+.i{
+  position:absolute;
+  top:20vh;
+  left:25vw;
+  width:50vw;
+  height:16em; 
+  border-radius:.3em;  background-image:url("https://i.pinimg.com/originals/c4/c2/07/c4c20721bb48f48993da917b5ef589ec.jpg"); 
+background-size:130%; 
+   background-position-y:35%;
+   background-position-x:50%;
+   background-repeat:no-repeat;  
+   transform:scale(1);
+   box-shadow:  
+			 1px 1px 3px rgba(0,0,0,.1); 
+   overflow:hidden;	
+   border:0px #E8E8E6 solid;
+   border-bottom:0px #E8E8E6 solid;		   
+   transition-duration:1s;		 
+}
+
+
+.fer{	
+	position:absolute;
+	bottom:var(--etiq-top);
+	width:100%;
+	height:20%;
+	background-color:var(--primari-color); 
+	filter:blur(1px);
+	opacity:0.5;
+	color:#000;
+	border-radius:.1em .1em 0em 0em;
+	transition-duration:1s;
+}
+
+#a {
+	background-image:url("car1.jpg")
+}
+
+#b{  
+background-image:url("car2.jpg");   
+}
+
+#c{  
+background-image:url("car3.jpg");   
+}
+
+#d{  
+background-image:url("car4.jpg");  
+background-position-y:55%; 
+}
+
+#e{  
+background-image:url("car5.jpg");   
+}
+
+
+#f{  
+background-image:url("car6.jpg");  
+}
+ 
+.menu-text{
+	display:block;
+	width:50%;
+	position:absolute;	
+	color:#000; 
+	font-weight:900;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;   
+	text-align:left;
+	padding-left:1em;
+	font-size:.9em;	
+	bottom:1%;
+	opacity:.9;
+}
